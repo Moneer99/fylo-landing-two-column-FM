@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  --bright-blue: rgb(48, 101, 248);
+  --moderate-cyan: hsl(170, 45%, 43%);
+  --grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--dark-blue);
+  line-height: 1.5;
+}
+
+img {
+  min-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+buttun,
+.header_nav {
+  font-family: "Raleway", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.header_nav {
+  justify-content: space-between;
+}
+
+.header_logo {
+  width: 100px;
+}
+
+.header_nav ul li {
+  padding: 0.5rem;
+}
+
+.header_nav ul li a {
+  color: var(--dark-blue);
+}
+
+.header_content {
+  text-align: center;
+  width: 95%;
+  margin: 5rem auto;
+}
+
+.img_content img {
+  margin: 3rem 0;
+}
+
+h1 {
+  font-size: clamp(1.7rem, 2vw, 2.2rem);
+}
+
+.header_content .text_content p {
+  margin: 1.5rem 0;
+}
+
+input,
+button {
+  width: 90%;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: none;
+}
+
+input {
+  border: 1px solid var(--dark-blue);
+  color: var(--light-gray);
+}
+
+.btn_get {
+  background-color: var(--bright-blue);
+  color: #fff;
+  font-weight: 700;
+}
