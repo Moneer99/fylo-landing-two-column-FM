@@ -108,3 +108,62 @@ input {
   color: #fff;
   font-weight: 700;
 }
+
+/* ------------------------------ main content ------------------------------ */
+.section-1 {
+  background-color: var(--grayish-blue);
+  text-align: center;
+}
+
+.section-1 .text_content h2,
+h3 {
+  font-size: clamp(1.2rem, 2vw, 2rem);
+}
+.section-1 .text_content h2 {
+  margin: 1rem;
+}
+
+.section-1 .text_content p {
+  color: var(--desaturated-blue);
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.see-how {
+  display: inline-block;
+  border-bottom: 1px solid var(--moderate-cyan);
+}
+
+.see-how .flex p {
+  margin: 0.5rem 0 0;
+  color: var(--moderate-cyan);
+}
+
+.testimonial {
+  background-color: #fff;
+  margin: 3rem 0;
+  padding: 2rem;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.testimonial p {
+  font-size: 0.85rem;
+  color: var(--dark-blue);
+}
+
+.testimonial_info img {
+  width: 30px;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 80rem;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 0.5rem;
+}
+/* ------------------------------ End main content ------------------------------ */
