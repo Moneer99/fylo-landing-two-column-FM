@@ -171,7 +171,7 @@ h3 {
 /* ------------------------------- media query ------------------------------ */
 @media only screen and (min-width: 680px) {
   .container-lg {
-    min-width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
